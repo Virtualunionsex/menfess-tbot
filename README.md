@@ -1,8 +1,8 @@
-# Telegram Menfess Bot
-_**Kirimkan pesan secara anonim ke grup atau saluran tertentu.**_
+## Telegram Menfess Bot
+<p align="center"> Kirimkan pesan secara anonim ke grup atau saluran tertentu.
 
-# Tutorial Instalasi
-Silahkan dikoreksi jika ada kesalahan pada tutorial dibawah ini.
+## Tutorial Instalasi
+<p align="center"> Silahkan dikoreksi jika ada kesalahan pada tutorial dibawah ini.
 <details>
 <summary><b>Setup Lokal</b></summary>
 <br>
@@ -37,8 +37,7 @@ Silahkan dikoreksi jika ada kesalahan pada tutorial dibawah ini.
 
 ## Disclaimer
 ```
-Gunakan bot dengan bijak! Lakukan dengan resiko kamu sendiri.
-Jangan lupa beri kredit jika kamu melakukan Fork atau Import Code 
+Use with your own risk.
 ```
 ## Lisensi
 - [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
@@ -46,7 +45,8 @@ Jangan lupa beri kredit jika kamu melakukan Fork atau Import Code
 ## Status Repository
 - ![Generic badge](https://img.shields.io/badge/Release-0.0.1-green.svg)
 - ![Generic badge](https://img.shields.io/badge/Maintenance-Yes-green.svg)
-- ![Generic badge](https://img.shields.io/badge/Status-Free-green.svg)
+- ![Generic badge](https://img.shields.io/badge/Status-Public-green.svg)
+- ![Generic badge](https://img.shields.io/badge/Template-Yes-green.svg)
 
 ## Requirements
 - ![Generic badge](https://img.shields.io/badge/Program-Python-black.svg)
