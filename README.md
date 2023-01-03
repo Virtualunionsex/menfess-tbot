@@ -22,7 +22,7 @@
 <br>
 
 - Pastikan program `Git dan SSH` sudah terinstall dengan benar.
-- Ketik `git clone https://github.com/raflydtya/menfess-tbot`
+- Ketik `git clone https://github.com/raflydtya/menfess-tbot && cd menfess-tbot`
 - `python bot.py`
 </details>
 
