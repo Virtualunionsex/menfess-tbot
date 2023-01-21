@@ -23,6 +23,19 @@
 
 - Pastikan program `Git dan SSH` sudah terinstall dengan benar.
 - Ketik `git clone https://github.com/raflydtya/menfess-tbot && cd menfess-tbot`
+- `pip3 -U -r requirements.txt`
+- `python bot.py`
+</details>
+
+<details>
+<summary><b>VPS Deployment</b></summary>
+<br>
+
+- Ketik `git clone https://github.com/raflydtya/menfess-tbot && cd menfess-tbot`
+- `apt install python3-virtualenv` (opsional)
+- `virtualenv -p /usr/bin/python3 venv` (opsional)
+- `. ./venv/bin/activate`(opsional)
+- `pip3 -U -r requirements.txt`
 - `python bot.py`
 </details>
 
