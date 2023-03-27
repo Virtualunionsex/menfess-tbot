@@ -33,11 +33,11 @@ def menfess(**args):
 
     return decorator
 
-FOTO = "<isi link media foto telegraph>"
+FOTO = "<https://telegra.ph/file/86efaa73273481ab9f48a.jpg>"
 @menfess(pattern=("/start"))
 async def start(event):
   TEXT = f"Halo {event.sender.first_name}!\n"
-  TEXT+= f"Ini adalah bot Menfess di Telegram. Kirim pesanmu dengan trigger (....), maka pesanmu akan terkirim ke (.....)"
+  TEXT+= f"Ini adalah bot Menfess executive di Telegram. Kirim pesanmu dengan trigger (#exe), maka pesanmu akan terkirim ke (https://t.me/+ETSJ66ZlMfZhNTJl)()"
   BUTTON = [[Button.url("Grup", group)]]
   await bot.send_file(event.chat_id, FOTO, caption=TEXT, buttons=BUTTON )
   print(time.asctime(), '|', event.sender.first_name, '|', event.sender.username, '|', event.sender.id, '|', 'Started Bot' )
