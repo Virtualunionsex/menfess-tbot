@@ -7,15 +7,15 @@ import time, asyncio, sys, random, inspect, re, logging
 from telethon import TelegramClient, events, utils
 from typing import Optional
 
-api_id = isi api id milikmu 
-api_hash = 'isi api hash milikmu'
-sesi_file = 'menfessbot'
-bot_token = 'isi bot api token'
+api_id = 16246834
+api_hash = '29b3ffa9245c07f05375b92f38e8f13d'
+sesi_file = 'menfess executive'
+bot_token = '5990927168:AAE3uVXTDPT-zviopBCNMST9m4LABCM97xM'
 
 menfessbot = TelegramClient(sesi_file, api_id, api_hash).start(bot_token=bot_token)
 
-group = '<username grup telegram>'
-ch = '<username channel telegram>'
+group = '<t.me/executive_fams>'
+ch = '<t.me/+U1NZZ_oK_j1kNjM1>'
 
 def menfess(**args):
     pattern = args.get("pattern", None)
@@ -37,7 +37,7 @@ FOTO = "<https://telegra.ph/file/86efaa73273481ab9f48a.jpg>"
 @menfess(pattern=("/start"))
 async def start(event):
   TEXT = f"Halo {event.sender.first_name}!\n"
-  TEXT+= f"Ini adalah bot Menfess executive di Telegram. Kirim pesanmu dengan trigger (#exe), maka pesanmu akan terkirim ke (https://t.me/+ETSJ66ZlMfZhNTJl)()"
+  TEXT+= f"Ini adalah bot Menfess executive di Telegram. Kirim pesanmu dengan trigger (#exe), maka pesanmu akan terkirim ke (https://t.me/+ETSJ66ZlMfZhNTJl)"
   BUTTON = [[Button.url("Grup", group)]]
   await bot.send_file(event.chat_id, FOTO, caption=TEXT, buttons=BUTTON )
   print(time.asctime(), '|', event.sender.first_name, '|', event.sender.username, '|', event.sender.id, '|', 'Started Bot' )
